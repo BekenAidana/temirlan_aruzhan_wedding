@@ -1,0 +1,6 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+13:12:11	147/147	---M-Z	200	added ('OK')	text/plain	etag:%22112-63496843beba0-gzip%22	http://temirlanaruzhan0908.tilda.ws/robots.txt		(from )
+13:12:11	70361/70361	---M-Z	200	added ('OK')	text/html	etag:%22112d9-634b888bd8ad4-gzip%22	http://temirlanaruzhan0908.tilda.ws/	/Users/aidanabeken/Downloads/wedding-copy2/temirlanaruzhan0908.tilda.ws/index.html	(from )
+13:12:12	70171/70171	---M-Z	200	added ('OK')	text/html	etag:%221121b-634972f3741fe-gzip%22	http://temirlanaruzhan0908.tilda.ws/rusv	/Users/aidanabeken/Downloads/wedding-copy2/temirlanaruzhan0908.tilda.ws/rusv.html	(from http://temirlanaruzhan0908.tilda.ws/)
+13:12:14	340/340	---MCZ	404	error ('Not%20Found')	text/html	etag:W/%22154-56d5bbe607fc0%22	http://temirlanaruzhan0908.tilda.ws/OPR/	/Users/aidanabeken/Downloads/wedding-copy2/temirlanaruzhan0908.tilda.ws/OPR/index.html	(from http://temirlanaruzhan0908.tilda.ws/)
+13:12:14	70361/70361	---M-Z	200	added ('OK')	text/html	etag:%22112d9-634b888bb09ca-gzip%22	http://temirlanaruzhan0908.tilda.ws/kazv	/Users/aidanabeken/Downloads/wedding-copy2/temirlanaruzhan0908.tilda.ws/kazv.html	(from http://temirlanaruzhan0908.tilda.ws/rusv)
