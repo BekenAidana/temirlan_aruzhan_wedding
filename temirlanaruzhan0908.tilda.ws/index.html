@@ -1606,15 +1606,15 @@
                 }
               </style>
               <form id="rsvp-form" action="https://script.google.com/macros/s/AKfycbxOLi6qBWjNQbt3YjwkD1i81aLC1lQi8ffVHULvg-RHO-MPwlFEdIIKi1ajrSTR2HGw/exec" method="post">
-                <label>Напишите имя</label>
+                <label>Аты-жөніңізді жазыңыз</label>
                 <input type="text" name="name" required>
                 <div class="radio-group">
-                  <input type="radio" id="opt1" name="attendance" value="Да, приду" required>
-                  <label for="opt1">Да, приду</label>
-                  <input type="radio" id="opt2" name="attendance" value="К сожалению, не смогу прийти.">
-                  <label for="opt2">К сожалению, не смогу прийти.</label>
+                  <input type="radio" id="opt1" name="attendance" value="Иә, келемін" required>
+                  <label for="opt1">Иә, келемін</label>
+                  <input type="radio" id="opt2" name="attendance" value="Өкінішке орай, келе алмаймын">
+                  <label for="opt2">Өкінішке орай, келе алмаймын</label>
                 </div>
-                <button type="submit">Отправить</button>
+                <button type="submit">Жіберу</button>
               </form>
               <!-- Сообщение об успешной отправке -->
               <p id="responseMessage"></p>
@@ -1627,7 +1627,7 @@
                     method: 'POST',
                     body: data
                   }).then(response => response.json()).then(() => {
-                    document.getElementById('responseMessage').innerText = 'Спасибо! Ваш ответ принят.';form.reset();
+                    document.getElementById('responseMessage').innerText = 'Рақмет! Жауабыңыз қабылданды.';form.reset();
                   }).catch(() => {
                     document.getElementById('responseMessage').innerText = 'Ошибка! Данные не были отправлены.';
                   });
